@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  background-color: black;
+  color: white;
+  line-height: 2em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  padding: 1em;
+  color: pink;
+}
+
+.rec-small {
+  text-align: center;
+}
+
+.wrap {
+  border: 1px solid white;
+  margin: 2em 20em 2em 20em;
+}
+
+p {
+  padding: 0 10em 2em 10em;
+  text-align: left;
+}
+li {
+  color: aqua;
+}
+
+.img-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+#recommend-head-wrap {
+  text-align: left;
+}
+
+#recommend-h {
+  text-align: center;
+}
+
+#rec-list {
+  list-style: upper-roman;
+  padding: 0 2em 2em 5em;
+}
+
+.rec-img {
+  padding: 1.5em;
+}
+
+#disclaimer {
+  text-align: center;
+}
+
+.references {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
